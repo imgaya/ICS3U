@@ -1,12 +1,11 @@
 package krisnarajah;
-/** IsPrime
+
+import java.util.Scanner;
+/** IsPrime.java
  * determines if the user's number is prime or not prime
  * 05/04/2017
  * @author Gayathiry
  */
-
-import java.util.Scanner;
-
 public class IsPrime {
 
 	public static void main(String[] args) {
@@ -17,14 +16,10 @@ public class IsPrime {
 		if (prime(num) == true) {
 			System.out.println("This a prime number");
 		}
-
 		else {
-
 			System.out.println("This is not a prime number");
-
 		}
 	}
-
 	/**
 	 * Checks if a is divisible by b
 	 * @param a - a number   
@@ -37,7 +32,6 @@ public class IsPrime {
 		}
 		return false;
 	}
-
 	/**
 	 * This checks if number is prime or not
 	 * 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Factorial {
 
 	public static void main(String[] args) {
-		/** Factorial
+		/** Factorial.java
 		 * Finds the factorial of the users number
 		 * 04/04/2017
 		 * @author Gayathiry
@@ -17,7 +17,6 @@ public class Factorial {
 		System.out.println(answer);
 		
 	}
-
 	
 	public static int factorial(int num)
 	{
@@ -27,8 +26,6 @@ public class Factorial {
 			answer = answer* i;
 		}
 		return answer;
-			
-				
 	}
 
 }
